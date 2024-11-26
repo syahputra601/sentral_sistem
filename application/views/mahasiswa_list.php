@@ -20,7 +20,7 @@
         <td><?php echo $mhs->no_tlp; ?></td>
         <td>
             <a href="<?php echo site_url('mahasiswa/edit/'.$mhs->nik); ?>">Edit</a> |
-            <a href="<?php echo site_url('mahasiswa/delete/'.$mhs->nik); ?>" onclick="return confirm('Are you sure?')">Delete</a>
+            <a href="<?php echo site_url('mahasiswa/delete/'.$mhs->nik); ?>" onclick="return confirm('Are you sure to delete this data?')">Delete</a>
         </td>
     </tr>
     <?php endforeach; ?>
